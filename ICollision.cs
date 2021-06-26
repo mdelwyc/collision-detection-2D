@@ -2,12 +2,12 @@ namespace CollisionDetection2D
 {
     public interface ICollision
     {
-        public bool CollisionDetection(ICollision collision);
-        public bool CollisionDetectionPoint(Point point);
-        public bool CollisionDetectionCircle(Circle circle);
-        public bool CollisionDetectionRectangle(Rectangle rect);
-        public bool CollisionDetectionLine(Line line);
-        public bool CollisionDetectionPolygon(Polygon polygon);
-        public bool CollisionDetectionTriangle(Triangle triangle);
+        bool CollisionDetection(ICollision collision);
+        bool CollisionDetectionPoint(Point point);
+        bool CollisionDetectionCircle(Circle circle);
+        bool CollisionDetectionRectangle(Rectangle rect);
+        bool CollisionDetectionLine(Line line);
+        bool CollisionDetectionPolygon(Polygon polygon);
+        bool CollisionDetectionTriangle(Triangle triangle);
     }
 }
